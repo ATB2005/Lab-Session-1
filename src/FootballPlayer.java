@@ -53,6 +53,60 @@ public class FootballPlayer {
         if (!isEligible)
             System.out.println("You are eligible");
 
+        //TASK 5
+        if (age>30) {
+            System.out.println("Veteran");
+        }
+        else if (age>=20){
+            System.out.println("Prime Player");
+        }
+        else {
+            System.out.println("Rising Star");
+        }
+
+        //TASK 6 & 7
+        System.out.print("Enter your player's jersey number: ");
+        byte coachInput = input.nextByte();
+        switch (coachInput) {
+            case 1:
+                System.out.println("Goal Keeper");
+                break;
+            case 2:
+            case 5:
+                System.out.println("Defender");
+                break;
+
+            case 6:
+            case 8:
+                System.out.println("Midfielder");
+                break;
+            case 7:
+            case 11:
+                System.out.println("Winger");
+                break;
+            case 9:
+                System.out.println("Striker");
+                break;
+            case 10:
+                System.out.println("Playmaker");
+                break;
+            default:
+                System.out.println("Player position not known");
+        }
+
+        // TASK 8
+        if (age >= 20 && age <= 30) {
+            if (weightInKg < 80) {
+                System.out.print("Starting line up");
+            } else {
+                System.out.println("Bench");
+            }
+        }
+
+        String isReady = (age >= 18 && age < 35 && weightInKg <= 90)?"Play":"Rest";
+        System.out.print(isReady);
+
+
 
 
 
