@@ -40,7 +40,7 @@ public class FootballPlayer {
         System.out.println(" ");
         System.out.println(age);
         age++;
-        //jerseyNumber--;
+
         System.out.println(age++);
         //System.out.println(jerseyNumber--);
 
