@@ -40,9 +40,9 @@ public class FootballPlayer {
         System.out.println(" ");
         System.out.println(age);
         age++;
-        jerseyNumber--;
+        //jerseyNumber--;
         System.out.println(age++);
-        System.out.println(jerseyNumber--);
+        //System.out.println(jerseyNumber--);
 
         //Task 4
         boolean isEligible = (age >= 18 && age< 35 && weightInKg <= 90);
