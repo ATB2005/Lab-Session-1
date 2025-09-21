@@ -97,7 +97,7 @@ public class FootballPlayer {
         // TASK 8
         if (age >= 20 && age <= 30) {
             if (weightInKg < 80) {
-                System.out.print("Starting line up");
+                System.out.println("Starting line up");
             } else {
                 System.out.println("Bench");
             }
