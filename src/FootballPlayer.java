@@ -102,7 +102,6 @@ public class FootballPlayer {
                 System.out.println("Bench");
             }
         }
-
         String isReady = (age >= 18 && age < 35 && weightInKg <= 90)?"Play":"Rest";
         System.out.print(isReady);
 
